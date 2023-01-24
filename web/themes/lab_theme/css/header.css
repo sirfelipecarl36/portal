@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: none;
-    border-bottom: 1px solid #ececec;
+    border-bottom: 2px solid #ececec;
 }
 
 .header-top-block{
@@ -51,8 +51,9 @@ a.acesso {
 }
 
 :root {
-    --primary: #0071ce;
-    --body-bg: #fff;
+    --color-primary: #0071ce !important;
+    --color-secondary: rgb(13,32,75)!important;
+    --bg-body: #fff !important;
 }
 
 .region-header-top {
@@ -93,6 +94,18 @@ div.block-info-div {
 div.block-info-div a {
     margin: 0px 5px;
     font-size: 13px;
+}
+
+div.block-info-div svg {
+    margin-right: 7px;
+    color: #6E6E6E;
+}
+
+/* Logo SIC-PA */
+
+.logo-sic {
+    min-width: 60px;
+    max-width: 60px;
 }
 
 /* Menu Principal */

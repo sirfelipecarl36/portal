@@ -1,0 +1,48 @@
+.field--name-field-subtitulo {
+    font-size: 22px;
+}
+
+/* Container Principal */
+
+.main-container {
+    display: flex;
+}
+
+/* Área do Conteúdo */
+
+main.page-content {
+    width: 80%;
+}
+
+/* Blocos da SideBar Left (Área esquerda do conteúdo) */
+
+.sidebar .block {
+    margin-bottom: 20px;
+    border-radius: 0;
+    background-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/* Blocos da SideBar Right (Área direita do conteúdo) */
+
+input.form-search {
+    height: 40px;
+    width: 180px;
+}
+
+/* Ocultar marca d'água dos botões de rede social */
+
+.eapps-social-share-buttons-inner .eapps-link {
+    display: none !important;
+}
+
+/* Ocultar Last Section */
+
+#last-section {
+    height: 0px !important;
+}

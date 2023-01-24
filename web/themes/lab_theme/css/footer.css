@@ -1,0 +1,190 @@
+#footer {
+    position: relative;
+}
+
+#footer > div.footer {
+    border-top: 3px solid red;
+    background: #1A1E21;
+    background-size: cover;
+    padding: 0;
+    min-height: 340px;
+}
+
+.footer-block p {
+    color: #9e9e9e;
+    font-size: 13px;
+}
+
+.footer-bottom {
+    padding: 0;
+    padding-bottom: 2rem;
+}
+
+div.footer > div.container > section.footer-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+/* Fonte Copyright */
+
+.copyright {
+    color: #c2c2c2;
+}
+
+/* Segundo Rodapé */
+
+#block-rede-social .block-content {
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+#block-rede-social .block-content ul {
+    list-style: none;
+    width: 300px;
+}
+
+#block-rede-social .block-content ul li {
+    float: left;
+    margin: 10px 14px;
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 200ms;
+}
+
+
+#block-rede-social .block-content ul li a {
+    color: #fff;
+    min-width: 45px;
+    min-height: 45px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid  #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 200ms;
+}
+
+#block-rede-social .block-content ul li:hover a {
+    background: #00c496;
+    transition-duration: 200ms;
+}
+
+#block-rede-social .block-content ul li a svg {
+    font-size: 15px;
+    color: white;
+}
+
+.footer-block .contact li a, .footer-block .contact li {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+
+.footer-block .contact li {
+    color: #9e9e9e;
+    border-top: 1px solid #313131;
+    border-bottom: none;
+}
+
+.footer-block ul.menu li {
+    color: #9e9e9e;
+    border-top: none;
+    border-bottom: none;
+}
+
+.footer-block ul.lista-redes li {
+    color: #9e9e9e;
+    border-top: none;
+    border-bottom: none;
+}
+
+.region-footer-first nav h2 {
+    color: #313131;
+}
+
+.footer-block #block-links-menu {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#footer svg {
+    margin: 0px 5px;
+}
+
+#block-links {
+    margin: 20px 0px;
+}
+
+#block-links ul.menu li a {
+    font-size: 16px;
+    color: #9e9e9e;
+}
+
+/* Terceiro Rodapé */
+
+p.p-footer {
+    font-size: 14px;
+    color: #ccc;
+}
+
+p > svg {
+    margin-right: 7px;
+}
+
+p.p-location {
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+}
+
+p.p-location a {
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+}
+
+/* Inferior Rodapé */
+
+#block-menurodape > ul.menu {
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#block-menurodape > ul.menu li{
+    float: left;
+}
+
+#block-menurodape > ul.menu li a{
+    margin: 0px 15px;
+    font-size: 14px;
+    color:rgb(108, 117, 125);
+}
+
+#block-menurodape > ul.menu li a:hover{
+    color:#ccc
+}
+
+#block-menurodape > ul.menu li::marker {
+    content: '|';
+    font-size: 1.2em;
+    margin: 0px 5px;
+}
+
+/* Retirar bordas brancas de blocks footer */
+
+.footer-bottom-middle {
+    border: none;
+}

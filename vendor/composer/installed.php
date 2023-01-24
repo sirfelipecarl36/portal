@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'd80c90020447a8966feb7ef108c5c2d12a25be7a',
+    'reference' => '16d8cfce773b8b09b9c8780d0a5fb049040cdd28',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -285,6 +285,15 @@
         0 => '9.5.2',
       ),
     ),
+    'drupal/ctools' => 
+    array (
+      'pretty_version' => '4.0.3',
+      'version' => '4.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4.0.3',
+    ),
     'drupal/exclude_node_title' => 
     array (
       'pretty_version' => '1.4.0',
@@ -293,6 +302,24 @@
       array (
       ),
       'reference' => '8.x-1.4',
+    ),
+    'drupal/field_display_label' => 
+    array (
+      'pretty_version' => '1.3.0',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.3',
+    ),
+    'drupal/fontawesome' => 
+    array (
+      'pretty_version' => '2.24.0',
+      'version' => '2.24.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.24',
     ),
     'drupal/markdown' => 
     array (
@@ -303,6 +330,15 @@
       ),
       'reference' => '3.0.0-rc2',
     ),
+    'drupal/pathauto' => 
+    array (
+      'pretty_version' => '1.11.0',
+      'version' => '1.11.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.11',
+    ),
     'drupal/recommended-project' => 
     array (
       'pretty_version' => 'dev-master',
@@ -310,7 +346,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'd80c90020447a8966feb7ef108c5c2d12a25be7a',
+      'reference' => '16d8cfce773b8b09b9c8780d0a5fb049040cdd28',
     ),
     'drupal/tara' => 
     array (
@@ -320,6 +356,15 @@
       array (
       ),
       'reference' => '10.0.4',
+    ),
+    'drupal/token' => 
+    array (
+      'pretty_version' => '1.11.0',
+      'version' => '1.11.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.11',
     ),
     'egulias/email-validator' => 
     array (
