@@ -92,6 +92,7 @@ class ComposerStaticInit4de1164f6d06ad23a0ed64f04904154f
         ),
         'L' => 
         array (
+            'League\\CommonMark\\' => 18,
             'Laminas\\Stdlib\\' => 15,
             'Laminas\\Feed\\' => 13,
             'Laminas\\Escaper\\' => 16,
@@ -274,6 +275,10 @@ class ComposerStaticInit4de1164f6d06ad23a0ed64f04904154f
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
+        ),
+        'League\\CommonMark\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/commonmark/src',
         ),
         'Laminas\\Stdlib\\' => 
         array (

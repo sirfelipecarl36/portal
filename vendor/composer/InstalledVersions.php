@@ -25,12 +25,12 @@ class InstalledVersions
     private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'd80c90020447a8966feb7ef108c5c2d12a25be7a',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -318,14 +318,23 @@ class InstalledVersions
       ),
       'reference' => '8.x-1.4',
     ),
-    'drupal/recommended-project' => 
+    'drupal/markdown' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => '3.0.0-rc2',
+      'version' => '3.0.0.0-RC2',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '3.0.0-rc2',
+    ),
+    'drupal/recommended-project' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd80c90020447a8966feb7ef108c5c2d12a25be7a',
     ),
     'drupal/tara' => 
     array (
@@ -407,6 +416,15 @@ class InstalledVersions
       array (
       ),
       'reference' => 'aad7d2b11ba0069ba0d9b40f6dde3c2fa664b57f',
+    ),
+    'league/commonmark' => 
+    array (
+      'pretty_version' => '1.6.7',
+      'version' => '1.6.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2b8185c13bc9578367a5bf901881d1c1b5bbd09b',
     ),
     'masterminds/html5' => 
     array (
