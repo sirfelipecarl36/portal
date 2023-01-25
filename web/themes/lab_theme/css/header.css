@@ -30,6 +30,16 @@
     max-width: 270px;
 }
 
+a.acesso-restrito {
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+    transition-duration: 240ms;
+}
+
+a.acesso-restrito:hover {
+    color: #0071ce;    
+}
+
 #breadcrumb {
     background: rgb(13, 32, 75);
     color: white;
@@ -53,7 +63,7 @@ a.acesso {
 :root {
     --color-primary: #0071ce !important;
     --color-secondary: rgb(13,32,75)!important;
-    --bg-body: #fff !important;
+    --bg-body: #f8f8f8 !important;
 }
 
 .region-header-top {

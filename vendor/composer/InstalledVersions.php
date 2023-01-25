@@ -30,7 +30,7 @@ class InstalledVersions
     'aliases' => 
     array (
     ),
-    'reference' => '16d8cfce773b8b09b9c8780d0a5fb049040cdd28',
+    'reference' => '8035f1e638b2476c57ce198e08b4910cfd6b73bb',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -318,6 +318,15 @@ class InstalledVersions
       ),
       'reference' => '4.0.3',
     ),
+    'drupal/drupal_slider' => 
+    array (
+      'pretty_version' => '2.1.0',
+      'version' => '2.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.1',
+    ),
     'drupal/exclude_node_title' => 
     array (
       'pretty_version' => '1.4.0',
@@ -336,6 +345,15 @@ class InstalledVersions
       ),
       'reference' => '8.x-1.3',
     ),
+    'drupal/flexslider' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.0',
+    ),
     'drupal/fontawesome' => 
     array (
       'pretty_version' => '2.24.0',
@@ -344,6 +362,15 @@ class InstalledVersions
       array (
       ),
       'reference' => '8.x-2.24',
+    ),
+    'drupal/libraries' => 
+    array (
+      'pretty_version' => '4.0.0',
+      'version' => '4.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4.0.0',
     ),
     'drupal/markdown' => 
     array (
@@ -370,7 +397,7 @@ class InstalledVersions
       'aliases' => 
       array (
       ),
-      'reference' => '16d8cfce773b8b09b9c8780d0a5fb049040cdd28',
+      'reference' => '8035f1e638b2476c57ce198e08b4910cfd6b73bb',
     ),
     'drupal/tara' => 
     array (

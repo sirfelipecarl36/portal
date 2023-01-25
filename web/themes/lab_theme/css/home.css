@@ -1,0 +1,210 @@
+/* Slider Home */
+
+.flex-caption {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 160px;
+    bottom: 100px;
+    width: 700px;
+    /* border-left: 4px solid rgb(236,41,57); */
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: -10px 6px 118px black;
+    background:rgb(12, 16, 117);
+    box-shadow: 0px 0px 20px 0px #313131;
+}
+
+.slideshow {
+    padding: 0;
+}
+
+.flexslider .slides {
+    height: 600px;
+  }
+
+.flexslider .slides img{
+    height: 600px;
+  }
+
+/* Estrutura do Container */
+
+.homepage-content .block {
+    margin-bottom: 30px;
+}
+
+#main-wrapper {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+#main-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.page-content {
+    width: 100.5vw;
+  }
+
+/* Bloco Mais Notícias */
+
+.mais-noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mais-noticias .view-content .views-row {
+    max-height: 490px;
+    min-width: 360px;
+    max-width: 360px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    margin: 20px 12px;
+    padding-bottom: 25px;
+    float: left;
+    transition-duration: 300ms;
+}
+
+
+.mais-noticias .view-content .views-row:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,.4);
+    transform: translateY(-10px);
+}
+
+.mais-noticias .view-content .views-row .views-field-title {
+    margin-left: 15px;
+}
+
+.mais-noticias .view-content .views-row .views-field-title span a {
+    color: #333333;
+}
+
+.mais-noticias .view-content .views-row .views-field-title span a:hover {
+    color: #0071ce;
+}
+
+.mais-noticias .view-content .views-row .views-field-created {
+    font-size: 12px;
+    line-height: 20px;
+    color: #757575;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#block-buttonnoticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+    margin-top: -25px;
+}
+
+.button-noticias {
+    color: #f7f7f7;
+    border:none;
+    background-color: #0074ad;
+    transition-duration: 200ms;
+}
+
+.button-noticias:hover {
+    color: #0074ad;
+    border: 1px solid #0074ad;
+    background-color: #f7f7f7;
+}
+
+/* Bloco Unidades */
+
+#block-views-block-unidades-block-1 .block-title {
+    
+}
+
+.unidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(13, 32, 75);
+}
+
+.unidades .view-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.unidades .view-content .views-row {
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 280px;
+    max-width: 280px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    margin: 20px 12px;
+    padding-bottom: 25px;
+    transition-duration: 200ms;
+}
+
+
+.unidades .view-content .views-row:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,.4);
+}
+
+.unidades .view-content .views-row .views-field-title {
+    margin-left: 15px;
+}
+
+.unidades .view-content .views-row .views-field-title span a {
+    color: #333333;    
+    padding-right: 5px;
+}
+
+.unidades .view-content .views-row .views-field-title span a:hover {
+    color: #0071ce;
+}
+
+.unidades .view-content .views-row .views-field-field-foto-da-unidade .field-content img {
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.unidades .view-content .views-row .views-field-type .field-content a {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    border-radius: 0.25rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 193, 7);
+}
+
+/* Bloco Parceiros */
+
+#block-views-block-block-parceiros-block-1 .block-title {
+    color: rgb(13, 32, 75);    
+}
+
+.block-parceiros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-parceiros .view-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.block-parceiros .view-content .views-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 35px;
+}
