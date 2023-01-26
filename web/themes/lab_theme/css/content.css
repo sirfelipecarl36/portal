@@ -14,6 +14,10 @@ main.page-content {
     width: 80%;
 }
 
+#main {
+    background-color: white;
+}
+
 /* Blocos da SideBar Left (Área esquerda do conteúdo) */
 
 .sidebar .block {

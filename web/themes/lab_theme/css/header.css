@@ -64,6 +64,7 @@ a.acesso {
     --color-primary: #0071ce !important;
     --color-secondary: rgb(13,32,75)!important;
     --bg-body: #f8f8f8 !important;
+    --light: #fff !important;
 }
 
 .region-header-top {

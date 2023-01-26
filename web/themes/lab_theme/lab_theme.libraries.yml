@@ -6,6 +6,7 @@ global-styling:
       css/content.css: {}
       css/home.css: {}
       css/footer.css: {}
+      css/noticias.css: {}
       
 global-scripts:  
   version: 1.0  

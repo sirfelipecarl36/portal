@@ -12,7 +12,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-shadow: -10px 6px 118px black;
-    background:rgb(12, 16, 117);
+    background:rgba(12, 16, 117, 0.8);
     box-shadow: 0px 0px 20px 0px #313131;
 }
 
@@ -37,6 +37,7 @@
 #main-wrapper {
     padding-top: 5px;
     padding-bottom: 15px;
+    background-color: white;
 }
 
 #main-wrapper .container {
@@ -117,7 +118,7 @@ main.page-content {
     background-color: #f7f7f7;
 }
 
-/* Bloco Unidades */
+/* Bloco Unidades de Conservação */
 
 #block-views-block-unidades-block-1 .block-title {
     
